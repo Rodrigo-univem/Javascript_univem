@@ -1,0 +1,31 @@
+input {
+    border: 3px solid #f00;
+}
+
+.btn {
+    font-family: arial;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border:none;
+    padding:5px;
+    cursor: pointer;
+    display: inline-block;
+}
+.btn-red{
+    background:red;
+    color:000;
+    box-shadow:0 5px 0 #b22222;
+
+}
+.btn-red:hover{
+    background:#b22222;
+    color:#FF0000;
+    box-shadow:0 5px 0 #b22222
+}
+.btn-red:active{
+    position: relative;
+    top: 5px;
+    box-shadow:none;
+}
+
